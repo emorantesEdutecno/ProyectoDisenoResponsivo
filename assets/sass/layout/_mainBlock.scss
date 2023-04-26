@@ -6,6 +6,14 @@
     display: none;
 }
 
+.cabecera__contenedorLista{
+    display: block;
+}
+
+.cabecera__contenedorLista--noMostrar{
+    display: none;
+}
+
 .cabecera__lista{
     display: inline-block;
 }
@@ -13,6 +21,8 @@
 .cabecera__lista__elemento{
     display: inherit;
 }
+
+
 
 .principal{
     display: inline-block;
@@ -79,7 +89,7 @@
 }
 
 .principal__derecha{
-    background-color: green;
+    background-color: pink;
     width: 72%;
     display: inherit;
     //font-family: 'Dancing Script', cursive;
