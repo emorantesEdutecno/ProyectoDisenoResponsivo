@@ -1,0 +1,30 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: $pantallaExtraSmall) {
+
+    .principal__izquierda__contenedortextoDerecha{
+        display: none;
+    }
+
+    .principal__izquierda__contenedortextoIzquierda{
+        width: 100%;
+        
+    }
+
+    .principal__izquierda__buscador{
+        display: none;
+    }
+
+    .principal__derecha{
+        font-size: $fuentePequena;
+    }
+
+    .principal__derecha--cursiva{
+        font-size: $fuenteNormal;
+    }
+
+    .principal__izquierda__contenedorimagen__contenido{
+        position: relative;
+        right: 40%;
+    }
+
+}

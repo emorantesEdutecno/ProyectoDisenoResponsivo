@@ -1,0 +1,126 @@
+/* abstracts*/
+/*vendors*
+
+/*base*/
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@font-face {
+  font-family: "Dancing Script";
+  font-style: normal;
+  font-weight: normal;
+  src: local("?"), url("../fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf") format("truetype");
+}
+/*layout*/
+.principal {
+  display: inline-block;
+  width: 100%;
+}
+
+.principal__izquierda {
+  background-color: blue;
+  width: 25%;
+  display: inherit;
+}
+
+.principal__izquierda__buscador {
+  color: #EBD558;
+  background-color: aquamarine;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.principal__izquierda__chat {
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: inline-block;
+}
+
+.principal__izquierda__fecha {
+  font-size: 10.5px;
+  color: #0BEEF5;
+}
+
+.principal__izquierda__imagen {
+  width: 100%;
+}
+
+.principal__izquierda__contenedorimagen {
+  width: 100%;
+  text-align: left;
+}
+
+.principal__izquierda__contenedortextoDerecha {
+  background-color: fuchsia;
+  display: inherit;
+  width: 27%;
+}
+
+.principal__izquierda__contenedortextoIzquierda {
+  background-color: yellow;
+  display: inherit;
+  width: 70%;
+}
+
+.principal__izquierda__contenedorimagen__contenido {
+  position: static;
+  width: 80%;
+  border-radius: 100%;
+}
+
+.principal__derecha {
+  background-color: green;
+  width: 72%;
+  display: inherit;
+  font-family: "Orbitron", sans-serif;
+  font-size: 36px;
+}
+
+.principal__derecha--cursiva {
+  background-color: green;
+  width: 72%;
+  display: inherit;
+  font-family: "Dancing Script", cursive;
+  font-size: 44px;
+}
+
+.cabecera {
+  background-color: orange;
+}
+
+.pie {
+  background-color: hotpink;
+}
+
+.pie__parrafo {
+  font-size: 20px;
+  color: greenyellow;
+  text-align: center;
+}
+
+/*components*/
+/*pages*/
+/*themes*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+  .principal__izquierda__contenedortextoDerecha {
+    display: none;
+  }
+  .principal__izquierda__contenedortextoIzquierda {
+    width: 100%;
+  }
+  .principal__izquierda__buscador {
+    display: none;
+  }
+  .principal__derecha {
+    font-size: 10.5px;
+  }
+  .principal__derecha--cursiva {
+    font-size: 13px;
+  }
+  .principal__izquierda__contenedorimagen__contenido {
+    position: relative;
+    right: 40%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
