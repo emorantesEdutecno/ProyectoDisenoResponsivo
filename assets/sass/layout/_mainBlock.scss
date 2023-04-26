@@ -1,3 +1,19 @@
+.cabecera{
+    text-align: center;
+}
+
+.cabecera__boton{
+    display: none;
+}
+
+.cabecera__lista{
+    display: inline-block;
+}
+
+.cabecera__lista__elemento{
+    display: inherit;
+}
+
 .principal{
     display: inline-block;
     width:100%;
@@ -15,6 +31,10 @@
     background-color: aquamarine;
     padding-top: 5%;
     padding-bottom: 5%;
+}
+
+.principal__izquierda__mostrarChats{
+    display: none;
 }
 
 .principal__izquierda__chat{
