@@ -11,13 +11,33 @@
 <body>
     
     <header class="cabecera">
-        <p class="cabecera__parrafo">Esto el header</p>
+        <button class="cabecera__boton" onclick="mostrarMenuPagina()">Mostrar Menu</button>
+        <div class="cabecera__contenedorLista">
+            <ul class="cabecera__lista">
+                <li class="cabecera__lista__elemento">Página Principal |</li>
+                <li class="cabecera__lista__elemento">Preguntas Frecuentes |</li>
+                <li class="cabecera__lista__elemento">Manuales y Tutoriales |</li>
+                <li class="cabecera__lista__elemento">Noticias |</li>
+                <li class="cabecera__lista__elemento">Calendario |</li>
+                <li class="cabecera__lista__elemento">Administracion de perfil |</li>
+                <li class="cabecera__lista__elemento">Organigrama |</li>
+                <li class="cabecera__lista__elemento">Chat</li>
+            </ul>
+
+        </div>
+
     </header>
     <main class="principal">
         <aside class="principal__izquierda">
             <article class="principal__izquierda__buscador">
                 <form action="" method="">
-                    <input type="text" id="txtbusqueda" name="txtbusqueda" size="16"><input type="button" value=".">
+                    <input type="text" id="txtbusqueda" name="txtbusqueda" size="16"><input type="button" value="buscar">
+                </form>
+            </article>
+
+            <article class="principal__izquierda__mostrarChats">
+                <form action="" method="">
+                    <input class="principal__izquierda__mostrarChats__boton" type="button" value="mostrar chats" onclick="mostrarContenedoresChat()">
                 </form>
             </article>
 
